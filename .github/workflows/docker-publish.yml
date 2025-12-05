@@ -26,7 +26,7 @@ jobs:
   integration:
     uses: VishwanathMalide/03_05_integration/.github/workflows/python-app.yml@main
     permissions:
-      contents: red
+      contents: read
       
   build:
     needs: [integration]
